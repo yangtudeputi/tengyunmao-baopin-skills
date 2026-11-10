@@ -1,25 +1,19 @@
 # 腾云猫 · 爆品带货 Skills
-**首个单品：微辣 ×《孩子为你自己读书吧》｜V1.0 试用版**。给学员的 AI 实操包，适合支持本地 Agent Skills 的工具。装好后不需要记模块名。
 
-### 收到 ZIP，给 Codex 发这句话
-> 请从我附上的“微辣爆品Skill-V1.0.zip”安装 weila-book 到我的个人技能目录。请检查 SKILL.md 和 references、assets 都在；如果需要重新开对话，告诉我。安装后用中文给我开始使用的口令。
+每个 Skill 对应一个单品，按商品名查找。
 
-请把 ZIP 放在本机并附给能读取本地文件的 AI。没有安装权限时，解压，直接打开 skills/weila-book/references/playbook.md 阅读。
+| 单品 | 爆品 Skill 作者 | 使用资料 |
+|---|---|---|
+| 《孩子为你自己读书吧》 | 微辣 | [单品手册](skills/haizi-wei-ni-ziji-dushu-ba/references/playbook.md) · [学员工作单](skills/haizi-wei-ni-ziji-dushu-ba/assets/workbook.md) |
 
-### 从仓库安装
-仓库管理员发布后，复制浏览器里**实际 GitHub 仓库地址**，发给你的 Agent：“从这个地址安装微辣的 weila-book 到我的个人技能目录，安装后检查文件并告诉我怎么开始。”私有仓库需要该学员有读取权限。只有名称没有地址，不能保证助手找到正确仓库。
-   
-也可在已解压的本目录打开终端（需 Node.js/npm）：
-   
+### 复制这一句到 Codex
+
+> 请从 https://github.com/yangtudeputi/tengyunmao-baopin-skills 安装《孩子为你自己读书吧》的爆品 Skill（haizi-wei-ni-ziji-dushu-ba）到我的个人技能目录，装好后带我开始做这本书的第一条带货视频。
+
+也可以在终端安装（需 Node.js/npm）：
+
 ```sh
-npx skills add . --skill weila-book --agent codex --global --copy --yes
+npx skills add https://github.com/yangtudeputi/tengyunmao-baopin-skills --skill haizi-wei-ni-ziji-dushu-ba --agent codex --global --copy --yes
 ```
-   
-从 GitHub 安装时把上面单独的点换成完整仓库 URL。更新时用同一可信来源重新安装；请勿把自己的作业存在安装目录。安装后若当前对话没发现技能，新开对话使用。
-   
-### 安装后直接说
-- “用微辣爆品 Skill 带我开始打这本书，我还没有选题。”
-- “用 weila-book 看我的开头。书页和草稿在这里，请直接改。”
-- “用 weila-book 帮我复盘：发布两小时 130 播放，没有持续流速，订单我还没查。下一步看什么？”
-   
-读[单品手册](skills/weila-book/references/playbook.md)或复制[学员工作单](skills/weila-book/assets/workbook.md)。本包没有主访谈原件、爆款剪映原工程、可公开复用的人物素材或收益承诺。
+
+再次使用时直接说：“用《孩子为你自己读书吧》的 Skill 看看我的开头，这是书页和初稿。”如果当前对话没有发现刚安装的 Skill，新开对话即可。旧版安装名为 weila-book，新版按书名安装；原有作业无需迁移。
