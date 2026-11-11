@@ -6,9 +6,15 @@
 |---|---|---|
 | 《孩子为你自己读书吧》 | 微辣 | [单品手册](skills/haizi-wei-ni-ziji-dushu-ba/references/playbook.md) · [学员工作单](skills/haizi-wei-ni-ziji-dushu-ba/assets/workbook.md) |
 
-### 复制这一句到 Codex
+### 第一次安装：复制这一句到 Codex
 
-> 请从 https://github.com/yangtudeputi/tengyunmao-baopin-skills 安装《孩子为你自己读书吧》的爆品 Skill（haizi-wei-ni-ziji-dushu-ba）到我的个人技能目录，装好后带我开始做这本书的第一条带货视频。
+> 帮我从 GitHub 安装腾云猫的爆品带货 Skill。
+
+本仓库是腾云猫的爆品带货 Skill 库。目前只有《孩子为你自己读书吧》这一款，爆品 Skill 作者：微辣。按仓库中的单品目录安装到个人技能目录即可。
+
+如果 Codex 没找到仓库，把这一句发给它：
+
+> 从 https://github.com/yangtudeputi/tengyunmao-baopin-skills 安装爆品带货 Skill。
 
 也可以在终端安装（需 Node.js/npm）：
 
