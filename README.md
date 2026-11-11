@@ -1,6 +1,6 @@
 # 领航爆品带货 Skill
 
-每个 Skill 对应一个单品，按商品名查找。
+每个 Skill 对应一个单品，按商品名查找。[《孩子为你自己读书吧》公开安装页](https://yangtudeputi.github.io/tengyunmao-baopin-skills/)。
 
 | 单品 | 爆品 Skill 作者 | 使用资料 |
 |---|---|---|
